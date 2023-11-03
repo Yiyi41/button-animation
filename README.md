@@ -1,2 +1,2 @@
 # button-animation
-[demo](gif/presentation.mp4)
+[demo](gif/presentation.gif)
