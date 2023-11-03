@@ -1,2 +1,1 @@
-# button-animation
-![demo of this animation](gifs/presentation.gif)
+# button-animation(gifs/presentation.gif)
