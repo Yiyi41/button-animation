@@ -1,5 +1,5 @@
 :root {
-  --font-size: 36px;
+  --font-size: 36px; /* prepare la superposition de a et son before, a est le parent de before */
 }
 
 *,
@@ -12,6 +12,7 @@
 }
 
 body {
+  /* pour centrer horizontalment la balise a et son before dans le body */
   display: flex;
   justify-content: center;
 }
@@ -22,7 +23,7 @@ a {
   font-size: var(--font-size);
   color: #333;
   text-decoration: none;
-  position: relative;
+  position: relative; /* prepare la superposition de a et son before, a est le parent de before */
 }
 
 a::before {
@@ -31,14 +32,14 @@ a::before {
   height: calc(var(--font-size) * 2);
   border-radius: calc(var(--font-size));
   background-color: #ffb19b;
-  display: block;
+  display: block; /* si le content est vide, pour display le before, il faut que ça soit display block*/
   position: absolute;
   z-index: -1;
-  top: -36%;
+  top: -36%; /*ici top et left en % permet de garder la responsive */
   left: -18%;
   transition: width 0.6s ease-in-out;
 }
 
 a:hover::before {
-  width: 136%;
+  width: 136%; /* on veut que ça soit 100% lors de hover, +18% de left et 18% de droit */
 }
