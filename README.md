@@ -1,2 +1,3 @@
 # button-animation
-[demo](gif/demo.gif)
+[demo]
+<img align="center" width="900" src="gif/demo.gif"/>
