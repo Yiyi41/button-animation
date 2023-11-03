@@ -1,2 +1,2 @@
 # button-animation
-![Demo](gifs/nom-du-fichier.gif)
+![Demo](gif/presentation.gif)
