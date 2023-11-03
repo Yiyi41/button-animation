@@ -1,3 +1,3 @@
-# button-animation: animation du boutton en hover
+# button-animation: animation en hover d'un lien 
 
 <img align="center" width="1000" src="gif/demo.gif"/>
